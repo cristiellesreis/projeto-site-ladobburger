@@ -1,0 +1,322 @@
+/* estilização do site */
+
+html, body {
+    max-height: 100%;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+}
+
+.menu{
+    font-family: 'Bree Serif';
+    font-weight: bold;
+    background-color: black;
+    font-size:18px;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 5px;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 20px;
+    z-index: 100;
+}
+
+.home{
+    text-align:left;
+    margin-left: 20px;
+    width: 15%;
+}
+
+.home a{
+    text-decoration: none;
+    color: #ffffff;
+    display:grid;
+    grid-template-columns: 60px 160px;
+    align-items: center;
+    justify-items: start;
+    position: fixed;
+}
+
+.home :hover{
+    font-size: 110%;
+}
+
+.imagem-logo{
+    width: 100%;
+    height:100%;
+}
+
+.opcoes-menu{
+    text-align: right;
+    display: inline;
+    padding-top: 18px;
+}
+
+.opcoes-menu a{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    height: 100%;
+    padding-right: 20px;
+}
+
+.opcoes-menu a:hover{
+    color:#F6CF81;
+}
+
+.capa-quem-somos{
+    height: 430px;
+    background-image: url(img/capa_home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.capa-cardapio{
+    height: 430px;
+    background-image: url(img/capa_historia.jpg);
+    background-size: cover;
+    background-position:bottom;
+}
+
+.titulo-capa{
+    font-family: 'Lexend';
+    font-size: 20px;
+    color: #ffffff;
+    position: relative;
+    top: 200px;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-capa h1{
+    margin: 0px;
+    max-width: 550px;
+    background-color: black;
+}
+
+.slogan{
+    background-color: #000000;
+    background-size: cover;
+    margin-top: 0%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+    font-family: 'Lobster';    
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.titulo-pagina{
+    font-family: 'Lobster';
+    font-size: 24px;
+    text-align: center;
+    color: #fcbf49;
+    margin: 50px;
+}
+
+.subtitulo{
+    font-family: 'Bree Serif';
+    font-size:18px;
+    text-align: center;
+    font-style: bold;
+}
+
+.img_cardapio{
+    width: 266px;
+    height: 266px;
+    object-fit: cover; 
+}
+
+.botao-cardapio{
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.botao-cardapio button{
+    border-radius: 4px;
+    background-color: white;
+    width: 365px;
+    height: 36px;
+    font-family: 'Bree Serif';
+    cursor: pointer;
+}
+
+.itens-cardapio{
+    height: 266px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.item-cardapio{
+    height: 266px;
+    width: 266px;
+    margin-right: 20px;
+}
+
+.foto-item-cardapio{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.texto-item-cardapio{
+    text-align: center;
+}
+
+.titulo-item{
+    font-size: 18px;
+    font-family: 'Bree Serif';
+    text-align: center;
+}
+
+#historia.titulo-item{
+    color: #000000;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.descricao-item{
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+.link-cardapio{
+    text-align: center;
+}
+
+.link-cardapio button{
+    width: 120px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-family: 'Bree Serif';
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.fundo-texto{
+    background-color:#efefef;
+}
+
+.textos{
+    padding-top: 24px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.textos p{
+    text-align: justify;
+    font-family: 'Bree Serif';
+    font-size: 15px;
+    color: #000000; 
+    text-indent: 50px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: auto;
+}
+
+.painel-fotos{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    height: 266px;
+}
+
+.foto-interna{
+    height: 266px;
+    width: 266px;
+    margin-right: 20px;
+}
+
+.foto-interna img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.redes-sociais{
+    object-fit: fill;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mapa{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mapa p{
+    font-family:'Bree Serif';
+    font-size: 18px;
+    margin: 0;
+
+}
+.lista-de-hamburguers{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 926px;
+    text-align: center;
+}
+
+.favoritos{
+    display: flex;
+    justify-content: center;
+}
+
+.aplicativos{
+    display: flex;
+    justify-content: center;   
+}
+
+.aplicativos img{
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.formulario input{
+    margin-bottom: 10px;
+    height: 30px;
+    font-family:'Bree Serif';
+}
+
+.botao-formulario{
+    background-color:#F6CF81;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario label{
+    font-family:'Bree Serif';
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: #000000;
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    width: 100%;
+    height: 50px;    
+    text-align: center;
+    line-height: 50px;
+    margin-top: 150px;
+}
